@@ -8,6 +8,7 @@ body {
   font-family: 'Poppins',
     sans-serif;
   margin: 10px 8px;
+  background: transparent;
 }
 
 .nav-wrapper {
@@ -143,3 +144,4 @@ li > a {
     margin-left: 3rem;
   }
 }
+
