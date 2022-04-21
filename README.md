@@ -2,14 +2,14 @@
 
 # Project Name
 
-> Description the project.
+> My-portfolio-project
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- basic web development
 
 ## Live Demo (if available)
 
@@ -25,16 +25,21 @@
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+ basic knowledge of HTML5, CSS3 ,GIT ,GITHUB and how the world wide web (www) works.
 
 ### Setup
+  visual studio code, gitbash and github
 
 ### Install
+ HTML&CSS linters
 
 ### Usage
+  
 
 ### Run tests
-
+   on visual studio you can run the project and live server to view it on web
 ### Deployment
+   
 
 
 
