@@ -43,11 +43,11 @@ on visual studio you can run the project and live server to view it on web
 
 ## Authors
 
-👤 **Author1**
+👤 **Abass rshid **
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/abass-rashid)
+- Twitter: [@twitterhandle](https://twitter.com/abass-rashid10)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/abass-rashid)
 
 👤 **Author2**
 
@@ -67,9 +67,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- this is my second project in module created withHTML/CSS
 
 ## 📝 License
 

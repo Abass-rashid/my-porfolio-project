@@ -113,7 +113,7 @@ li > a {
   color: #7f8cff;
 }
 
-.icons-list>ul {
+.icons-list>ul>li {
   display: flex;
   flex-direction: row;
   gap: 1.5rem;
