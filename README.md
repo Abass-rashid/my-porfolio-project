@@ -41,6 +41,8 @@ on visual studio you can run the project and live server to view it on web
 
 ### Deployment
 
+deployed on github for storage
+
 ## Authors
 
 👤 **Abass rshid **
