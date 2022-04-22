@@ -8,8 +8,7 @@ body {
   margin: 10px 8px;
   background: transparent;
   font-family: sans-serif;
-  background: #f7f7f9;
-  background-image: url(images/Header\ bg.png);
+  background-color: #f7f7f9 url(images/Header\ bg.png);
 }
 
 .nav-wrapper {
