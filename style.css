@@ -7,9 +7,7 @@
 body {
   margin: 10px 8px;
   background: transparent;
-  font-family: 
-  'Poppins',
-    sans-serif;
+  font-family: sans-serif;
 }
 
 .nav-wrapper {
@@ -25,7 +23,7 @@ body {
   display: flex;
 }
 
-.nav-left > span {
+.nav-left>span {
   justify-content: start;
   margin-left: 8px;
   font-weight: 700;
@@ -41,12 +39,12 @@ body {
   font-weight: 400;
 }
 
-li > a {
+li>a {
   list-style: none;
   text-decoration: none;
 }
 
-.nav-list > ul {
+.nav-list>ul {
   display: flex;
   gap: 2rem;
   margin-right: 2rem;
@@ -100,41 +98,35 @@ li > a {
 }
 
 .social-icons {
- margin-top: 1rem;
- }
+  margin-top: 1rem;
+}
 
-.icons-header > h4 {
+.icons-header>h4 {
   font-size: 16px;
   color: #7f8cff;
 }
 
-.icons-list > div > span {
+.icons-list>div>span {
   display: flex;
   flex-direction: row;
   gap: 1.5rem;
   color: #505f79;
-  padding:  20px 15px;
+  padding: 20px 15px;
   list-style-type: none;
   margin-left: 12px;
   transform: scale(120%);
 }
-
 .icon-link:hover {
   cursor: pointer;
   color: #7f8cff;
 }
-
 @media only screen and (max-width: 850px) {
-   .nav-list {
-     display: none;
-      }
+  .nav-list {
+    display: none;
   }
-
+}
 @media only screen and (min-width: 851px) {
   .hamburger {
     display: none;
   }
 }
-
-
-
