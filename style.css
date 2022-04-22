@@ -134,4 +134,7 @@ li > a {
   .hamburger {
     display: none;
   }
+  .icons-list {
+    margin-left: 8rem;
+  }
 }
