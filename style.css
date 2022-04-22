@@ -8,6 +8,8 @@ body {
   margin: 10px 8px;
   background: transparent;
   font-family: sans-serif;
+  background: #f7f7f9;
+  background-image: url(images/Header\ bg.png);
 }
 
 .nav-wrapper {
@@ -106,7 +108,7 @@ li > a {
   color: #7f8cff;
 }
 
-.icons-list > div > span {
+.icons-list {
   display: flex;
   flex-direction: row;
   gap: 1.5rem;
