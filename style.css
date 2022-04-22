@@ -34,6 +34,7 @@ body {
   margin-top: 10px;
   text-decoration: none;
 }
+
 .nav-left > a:hover {
   color: bisque;
   cursor: pointer;
@@ -44,11 +45,6 @@ body {
   align-items: center;
   justify-content: flex-end;
   font-weight: 400;
-}
-
-li > a {
-  list-style: none;
-  text-decoration: none;
 }
 
 .hamburger {
