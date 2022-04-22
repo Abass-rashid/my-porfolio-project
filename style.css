@@ -25,13 +25,18 @@ body {
   display: flex;
 }
 
-.nav-left > span {
+.nav-left > a {
   justify-content: start;
   margin-left: 8px;
   font-weight: bold;
   font-size: 18px;
   color: #7f8cff;
   margin-top: 10px;
+  text-decoration: none;
+}
+.nav-left > a:hover {
+  color: bisque;
+  cursor: pointer;
 }
 
 .nav-right {
@@ -44,18 +49,6 @@ body {
 li > a {
   list-style: none;
   text-decoration: none;
-}
-
-.nav-list > ul {
-  display: flex;
-  gap: 2rem;
-  margin-right: 2rem;
-  list-style-type: none;
-}
-
-.nav-link:hover {
-  color: blueviolet;
-  cursor: pointer;
 }
 
 .hamburger {
@@ -72,7 +65,7 @@ li > a {
   color: black;
 }
 
-.main-wrapper {
+.section-wrapper {
   margin-top: 2rem;
   display: flex;
   justify-content: flex-start;
@@ -80,7 +73,7 @@ li > a {
   padding: 20px 24px;
 }
 
-.main-header {
+.section-header {
   font-size: 28px;
   letter-spacing: 0.37px;
   font-weight: bold;
@@ -92,7 +85,7 @@ li > a {
   gap: 5px;
 }
 
-.content-of-main {
+.content-of-section {
   font-size: 18px;
   margin-top: 1.5rem;
   font-weight: normal;
@@ -103,7 +96,7 @@ li > a {
   margin-top: 1rem;
 }
 
-.icons-header > h4 {
+.icons-header > h2 {
   font-size: 17px;
   color: #7f8cff;
 }
