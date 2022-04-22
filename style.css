@@ -7,8 +7,9 @@
 body {
   margin: 10px 8px;
   background: transparent;
-  font-family: 'Poppins',
-  sans-serif;
+  font-family: 
+  'Poppins',
+    sans-serif;
 }
 
 .nav-wrapper {
@@ -88,7 +89,6 @@ li > a {
   color: #344563;
   display: flex;
   flex-direction: column;
-  
   gap: 5px;
 }
 
@@ -101,7 +101,7 @@ li > a {
 
 .social-icons {
  margin-top: 1rem;
-}
+ }
 
 .icons-header > h4 {
   font-size: 16px;
@@ -127,15 +127,14 @@ li > a {
 @media only screen and (max-width: 850px) {
    .nav-list {
      display: none;
-    }
-}
+      }
+  }
 
 @media only screen and (min-width: 851px) {
   .hamburger {
     display: none;
   }
 }
-
 
 
 
