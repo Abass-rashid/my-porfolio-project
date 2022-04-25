@@ -412,3 +412,8 @@ body {
   align-self: center;
   font-weight: normal;
 }
+
+.btn-link {
+  border: 1px solid red;
+  float: left;
+}
