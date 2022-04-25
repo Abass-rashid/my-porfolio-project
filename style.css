@@ -214,7 +214,7 @@ body {
   color: #344563;
   max-width: 350px;
 }
-
+/*
 .btn-languages {
   background-color: #a1e3d8;
   border: none;
@@ -234,6 +234,7 @@ body {
   background-color: #fff;
 }
 
+
 .btn-link {
   text-decoration: none;
   color: #7f8cff;
@@ -243,6 +244,14 @@ body {
   color: aqua;
   cursor: pointer;
 }
+*/
+
+/* start pair programming part */
+.btn-button {
+  float: center;
+}
+/* end of the pair programming */
+
 
 .btn-card {
   background-color: transparent;
