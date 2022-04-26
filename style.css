@@ -482,7 +482,7 @@ textarea::placeholder {
   color: #b3bac5;
 }
 
- button {
+button {
   display: block;
   margin-top: 1rem;
   width: 14rem;
