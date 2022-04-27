@@ -455,14 +455,14 @@ input {
   font-size: 17px;
   line-height: 20px;
   height: 48px;
-  width: 350px;
+  width: 327px;
   margin-top: 1rem;
   display: flex;
   outline: none;
   gap: 1.5rem;
   justify-content: center;
   margin-left: 30px;
-  border-radius: 12px;
+  border-radius: 8px;
 }
 
 input::placeholder {
@@ -487,22 +487,23 @@ textarea::placeholder {
 button {
   display: block;
   margin-top: 1rem;
-  width: 14rem;
+  width: 140px;
   height: 3.2rem;
   color: #6070ff;
   background-color: #fff;
-  border-radius: 15px;
-  font-size: 18px;
+  border-radius: 8px;
+  font-size: 17px;
   font-weight: 500;
+  margin-left: 30px;
   border: 1px solid #7f8cff;
-  margin-left: 50px;
+  padding: 12px 16px 12px 16px;
 }
 
 button:hover {
   cursor: pointer;
-  color: #344563;
-  border: 1px solid #000;
-  background-color: #ddd;
+  color: #fff;
+  border: 1px solid #7f8cff;
+  background-color: #6070ff;
 }
 
 .text-input {
