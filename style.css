@@ -221,11 +221,12 @@ h4 span {
 }
 
 .about h2 {
-  margin-top: 100px;
-  font-size: 24px;
+  margin-top: 5rem;
+  font-size: 30px;
   font-weight: 800;
-  line-height: 28px;
-  letter-spacing: 1.7;
+  line-height: 34px;
+  letter-spacing: 2;
+  margin-bottom: 1rem;
 }
 
 .about li {
@@ -234,6 +235,8 @@ h4 span {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
+  transform: scale(0.6);
+  gap: 1rem;
 }
 
 .about .connect {
@@ -260,8 +263,8 @@ h4 span {
   align-items: center;
   border-bottom: 1px solid #dfe1e6;
   padding-bottom: 10px;
-  font-weight: 500;
-  font-size: 20px;
+  font-weight: 700;
+  font-size: 30px;
   line-height: 24px;
 }
 
@@ -433,16 +436,15 @@ button:active {
     }
     .card-content-1 {
       display: flex;
-      justify-content: right;
+      justify-content: left;
       flex-direction: column;
-      align-items: right;
-      padding-left: 0;
+      align-items: flex-start;
+      padding-left: 10px;
+      margin-right: auto;
     }
     .card-container-1 > img {
       display: flex;
-      justify-content: flex-end;
-      margin-top: 6px;
-      margin-right: 8rem;
+      justify-content: left;
     }
     
     .card-container {
@@ -470,16 +472,27 @@ button:active {
       margin-top: 1rem;
       align-self: flex-start;
     }
-    .about {
+    .about-container {
       display: flex;
       flex-direction: row;
+      row-gap: 3rem;
+    }
+    .about-content {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: auto;
+      margin-right: auto;
+    }
+
+    .about-content > p {
+      font-size: 18px;
+      font-weight: 500;
     }
     .btn-icon-language {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      gap: 0.5rem;
     }
 
 }
