@@ -143,6 +143,10 @@ body {
   border-radius: 16px;
 }
 
+li {
+  list-style-type: none;
+}
+
 .card-container {
   padding: 15px;
   display: flex;
@@ -196,7 +200,7 @@ h4 span {
   padding: 5px 10px;
 }
 
-/* cards*/
+/* cards */
 
 .portfolio {
   display: grid;
@@ -275,6 +279,7 @@ h4 span {
 .about button {
   margin: 12px 0 20px 0;
 }
+
 /* end of cards */
 
 /* contact form */
@@ -290,6 +295,7 @@ h4 span {
   top: 1rem;
   border-top-left-radius: 60px;
 }
+
 .container-form {
   margin-left: 30px;
 }
@@ -314,10 +320,6 @@ h4 span {
   color: #fff;
   margin-top: 2rem;
   max-width: 400px;
-}
-
-li {
-  list-style-type: none;
 }
 
 input {
@@ -406,11 +408,12 @@ button:active {
   .hamburger {
     display: none;
   }
+
   .form-container {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+    }
   
   .section-wrapper {
     display: flex;
@@ -418,12 +421,15 @@ button:active {
     align-items: center;
     padding-right: 7rem;
     }
+
     .section-header {
       padding-right: 16rem;
     }
-    .content-of-section{
+
+    .content-of-section {
       max-width: 600px;
     }
+
     .social-icons {
       padding-right: 25rem;
     }
@@ -432,8 +438,8 @@ button:active {
       display: flex;
       flex-direction: row-reverse;
       column-gap: 1rem;
-
     }
+
     .card-content-1 {
       display: flex;
       justify-content: left;
@@ -442,6 +448,7 @@ button:active {
       padding-left: 10px;
       margin-right: auto;
     }
+
     .card-container-1 > img {
       display: flex;
       justify-content: left;
@@ -472,11 +479,13 @@ button:active {
       margin-top: 1rem;
       align-self: flex-start;
     }
+
     .about-container {
       display: flex;
       flex-direction: row;
       row-gap: 3rem;
     }
+
     .about-content {
       display: flex;
       flex-direction: column;
@@ -488,6 +497,7 @@ button:active {
       font-size: 18px;
       font-weight: 500;
     }
+
     .btn-icon-language {
       display: flex;
       flex-direction: column;
