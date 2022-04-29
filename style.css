@@ -564,6 +564,7 @@ button:active {
     0% {
       transform: translateX(0);
     }
+
     100% {
       transform: translateX(150px);
     }
@@ -587,5 +588,5 @@ button:active {
       transform: rotate(360deg);
     }
   }
-
 }
+
