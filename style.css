@@ -568,4 +568,24 @@ button:active {
       transform: translateX(150px);
     }
   }
+
+  .my-logo {
+    animation-name: rotate;
+    animation-duration: 0.9s;
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+
+    50% {
+      transform: rotate(180deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
 }
