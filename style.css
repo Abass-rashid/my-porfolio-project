@@ -316,10 +316,6 @@ h4 span {
   margin-left: 30px;
 }
 
-.container-form:hover {
-  animation: moveToRight 5s linear ;
-}
-
 .form-header {
   font-size: 40px;
   font-weight: 800;
@@ -420,7 +416,7 @@ button:active {
   width: 327px;
 }
 
-@media only screen and (max-width: 765px) {
+@media only screen and (max-width: 767px) {
   .nav-link {
     display: none;
   }
@@ -465,6 +461,7 @@ button:active {
 
   img:hover {
     transform: scale(1.2);
+    opacity: 1;
   }
 
   .social-icons {
@@ -559,5 +556,19 @@ button:active {
     width: 13rem;
     height: 8rem;
     padding-right: 3rem;
+  }
+
+  .container-form:hover {
+    animation: moveToRight 5s linear;
+  }
+  
+  @keyframes moveToRight {
+    0% {
+      transform: translateX(0px);
+    }
+  
+    100% {
+      transform: translateX(150px);
+    }
   }
 }
